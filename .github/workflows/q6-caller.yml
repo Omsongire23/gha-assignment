@@ -4,7 +4,7 @@ on:
 
 jobs:
   call-reusable:
-    uses: ./.github/workflows/q6-reusable.yml
+    uses: .github/workflows/q6-caller.yml
     with:
       name: Prachi
       env_name: dev
