@@ -4,7 +4,7 @@ on:
 
 jobs:
   call-reusable:
-    uses: .github/workflows/q6-caller.yml
+    uses: ./.github/workflows/q6-reuseable.yml
     with:
       name: Nakul
       env_name: dev
